@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Encriptador de Texto</title>
+   <link rel="icon" type="img/jpg" href="olas-del-mar.png">
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+       <img class="logo" src="Logo.png" alt="logo Alura">
+       <h1 class="titulo">Encriptador de Texto</h1>  
+   </header>
+
+   <main>
+       <section class="izquierda">
+           <textarea class="ingresaTexto" id="izquierdaTexto" placeholder="Ingrese el texto aquí"></textarea>
+           <div></div>
+           <span class="leyenda">⚠️ Solo letras minúsculas y sin acentos</span>
+           <div class="botones">
+               <button class="encriptarBoton" onclick="encriptar()">Encriptar</button>
+               <button class="desencriptarBoton" onclick="desencriptar()">Desencriptar</button>
+           </div>
+          
+           <div>.</div> <div>.</div> <div>.</div>
+           
+           <div class="audio">
+               <iframe style="border-radius:12px"
+               src="https://open.spotify.com/embed/playlist/7o9FW1qmeOmr3TP9SGCTBS?utm_source=generator"
+               width="100%" height="100" frameBorder="0" 
+               allowfullscreen=""
+               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+               loading="lazy"></iframe>
+           </div>
+       </section>
+
+       <section class="derecha">
+           <img class="chica" src="muneco.PNG" alt="chica con preguntas">
+           <p id="informacion" class="informacion">Ingrese el texto que desees encriptar o desencriptar</p>
+           <textarea class="noFound" id="mensaje" placeholder="Ningún mensaje fue encontrado" readonly></textarea>
+           <button id="copiar" onclick="copiarTexto()">Copiar</button>
+       </section>
+   </main>
+
+   <footer>
+       <img class="foto" src="soyYo copia.jpg" alt="foto">
+       <p>Desarrollado por Yulit Cordova</p>
+       <div class="redesSociales">
+           <a href="https://instagram.com/yucordova" target="_blank">
+               <img src="logoInsta.png" alt="Instagram">
+           <a href="https://beacons.ai/yucordova" target="_blank">
+               <img src="beaconsLogo.avif" alt="Beacons">
+           </a>
+           </a>
+           <a href="https://github.com/yucordova" target="_blank">
+               <img src="githubLogo.png" alt="GitHub">
+           </a>
+       </div>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
