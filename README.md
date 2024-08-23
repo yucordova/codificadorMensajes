@@ -7,7 +7,6 @@ La letra "a" es convertida para "ai"
 La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
 
-Requisitos:
 
 Debe funcionar solo con letras minúsculas
 No deben ser utilizados letras con acentos ni caracteres especiales
@@ -19,3 +18,5 @@ gaitober" => "gato"
 La página debe tener campos para
 inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
 El resultado debe ser mostrado en la pantalla.
+
+Adicionado, hay un reproductor de musica para que codifiques con estilo
